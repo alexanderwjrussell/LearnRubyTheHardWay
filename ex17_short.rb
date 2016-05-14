@@ -1,6 +1,7 @@
 from_file, to_file = ARGV
 
-out_file = open(to_file, 'w')
-out_file.write(open(from_file, 'r'))
+in_file = open(from_file)
+indata = in_file.read
 
-out_file.close
+out_file = open(to_file, 'w')
+out_file.write(indata)
