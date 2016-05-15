@@ -39,7 +39,7 @@ module Ex25
   # Sorts the words then prints the first and last one.
   def Ex25.print_first_and_last_sorted(sentence)
     words = Ex25.sort_sentence(sentence)
-    Ex25.print_fist_word(words)
+    Ex25.print_first_word(words)
     Ex25.print_last_word(words)
   end
 
@@ -68,10 +68,9 @@ puts "This should be five: #{five}"
 def secret_formula(started)
   jelly_beans = started * 500
   jars = jelly_beans / 1000
-  crate = jars / 100
+  crates = jars / 100
   return jelly_beans, jars, crates
 end
-
 
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
