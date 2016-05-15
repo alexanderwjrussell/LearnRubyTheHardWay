@@ -26,7 +26,6 @@ def secret_formula(started)
   return jelly_beans, jars, crates
 end
 
-
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
