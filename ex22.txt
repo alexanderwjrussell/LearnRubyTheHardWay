@@ -1,0 +1,2 @@
+puts = Output a string to the command window with a line break after.
+"" = Quotations are used to create strings.
