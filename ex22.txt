@@ -1,2 +1,57 @@
-puts = Output a string to the command window with a line break after.
-"" = Quotations are used to create strings.
+puts = Output a string to the command window with a line break after
+print = Output a string to the command window without a line break
+gets = Get user input from command window with a line break after
+chomp = Removes line break if not required. Ususally found after gets.chomp
+"" = Quotations are used to create strings on a single line
+""" = Triple quotations are used to create longer strings of multiple lines and only exits after
+a second lot of triple quotations. Paragraphing is kept within the quotations
+# = Hast tags enable us to comment on code and instructs the programme to dismiss the text after
+(normally until a line break)
+#{} = Used to input data within a string. Can do calculations etc within {}
+%{} = Similar to above but mainly used in formatting. Setting positioning values etc...
+* = Multiplication symbol
+/ = Division symbol
++ = Addition symbol
+- = Subtraction symbol
+% = Modulus symbol
+> = Greater than symbol
+< = Less than symbol
+>= = Greater than or equal to
+<= = Less than or equal to
+= = Sets variables values equals to something else (integer, string, array etc...)
+.to_f = Converts value to a float value (has decimalisation)
+.to_i = Converts value to an integer (whole number, not rounded)
+.to_s = Converts value to a string
+.to_a = Converts value to an array (sets up an array with the data within [])
+true = Boolean value used to control program flow
+false = Boolean value used to control program flow
+\n = Inputs a line break within a string
+\t = Tabs in the information. Used for formatting
+\\ = Used to put a single \ in a string
+ARGV = Argument Value. Gathers parameters after loading the program
+e.g. ex21_drill.rb Test.txt - The Test.txt is the parameter input into the program
+.first = A parameter which instructs Ruby to take the first parameter given and use that
+$ = Global variable input. Can be read from anywhere in the code. Required to get
+user input after using ARGV
+stdin = Standard input. Used with $stdin to get user input whilst using ARGV
+open() = Used to open files within the program. Can have additional parameters: 'r' 'w' 'a'
+'r' = Read parameter on open command
+'w' = Write parameter on open command
+'a' = Append only on open command. Adds to the end of a file
+.read = Used to read the contents of files within a program
+.write = Used to write contents inside a file within a program
+.close = Used to close a file once it has been used within a program. Prevent memory leaks
+require = Instructs Ruby which libraries will be required
+def = Used to define a method in Ruby. Usually followed by the method name, possible
+parameter and closed with end
+end = Used to end blocks of code
+if = Used to create an if statement which only runs "if" the criteria are met. Always
+given a criteria to run and then instructions once met. Ended with end
+else = Used if the if statements criteria isn't met. Instructs it to carry out other
+code if the criteria wasn't met. Ended with an end
+elsif = Used if you require more than one "if" statement criteria. Ended with end
+return = Returns a value and exits the block of code
+while = Used to loop code while a statement is true. Ended with end
+until = Used to loop code until a criteria is met. Ended with end
+=+ = Used to increase subsequent iterations within loops
+=- = Used to decrease subsequent iterations within loops
